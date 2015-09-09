@@ -1,0 +1,729 @@
+fileFormatVersion: 2
+guid: 3bcfce24439ac1849a0c3067574e1bcf
+timeCreated: 1427031117
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: BackDownLeg.L
+    100006: BackDownLeg.R
+    100008: BackMiddleLeg.L
+    100010: BackMiddleLeg.R
+    100012: BackUpperLeg.L
+    100014: BackUpperLeg.R
+    100016: BodyBack
+    100018: BodyFront
+    100020: Cube
+    100022: FrontDownLeg.L
+    100024: FrontDownLeg.R
+    100026: FrontMiddleLeg.L
+    100028: FrontMiddleLeg.R
+    100030: FrontUpperLeg.L
+    100032: FrontUpperLeg.R
+    100034: Head
+    100036: IK_BackFoot.L
+    100038: IK_BackFoot.R
+    100040: IK_BackKnee.L
+    100042: IK_BackKnee.R
+    100044: IK_Body
+    100046: IK_FrontFoot.L
+    100048: IK_FrontFoot.R
+    100050: IK_FrontKnee.L
+    100052: IK_FrontKnee.R
+    100054: Neck
+    100056: Tail1
+    100058: Tail2
+    100060: Tail3
+    100062: Bone
+    100064: Bone.001
+    100066: Bone.002
+    100068: Bone.003
+    100070: Bone.004
+    100072: Bone.005
+    100074: Bone.006
+    100076: Bone.007
+    100078: BottomLeg.L
+    100080: BottomLeg.R
+    100082: Cylinder
+    100084: Cylinder.001
+    100086: Foot.L
+    100088: Foot.R
+    100090: Hand.L
+    100092: Hand.R
+    100094: IK.Knee.L
+    100096: IK.Knee.R
+    100098: IK.Leg.L
+    100100: IK.Leg.R
+    100102: MiddleArm.L
+    100104: MiddleArm.R
+    100106: MiddleLeg.L
+    100108: MiddleLeg.R
+    100110: TopArm.L
+    100112: TopArm.R
+    100114: TopLeg.L
+    100116: TopLeg.R
+    100118: Trex_Rigged
+    400000: //RootNode
+    400002: Armature
+    400004: BackDownLeg.L
+    400006: BackDownLeg.R
+    400008: BackMiddleLeg.L
+    400010: BackMiddleLeg.R
+    400012: BackUpperLeg.L
+    400014: BackUpperLeg.R
+    400016: BodyBack
+    400018: BodyFront
+    400020: Cube
+    400022: FrontDownLeg.L
+    400024: FrontDownLeg.R
+    400026: FrontMiddleLeg.L
+    400028: FrontMiddleLeg.R
+    400030: FrontUpperLeg.L
+    400032: FrontUpperLeg.R
+    400034: Head
+    400036: IK_BackFoot.L
+    400038: IK_BackFoot.R
+    400040: IK_BackKnee.L
+    400042: IK_BackKnee.R
+    400044: IK_Body
+    400046: IK_FrontFoot.L
+    400048: IK_FrontFoot.R
+    400050: IK_FrontKnee.L
+    400052: IK_FrontKnee.R
+    400054: Neck
+    400056: Tail1
+    400058: Tail2
+    400060: Tail3
+    400062: Bone
+    400064: Bone.001
+    400066: Bone.002
+    400068: Bone.003
+    400070: Bone.004
+    400072: Bone.005
+    400074: Bone.006
+    400076: Bone.007
+    400078: BottomLeg.L
+    400080: BottomLeg.R
+    400082: Cylinder
+    400084: Cylinder.001
+    400086: Foot.L
+    400088: Foot.R
+    400090: Hand.L
+    400092: Hand.R
+    400094: IK.Knee.L
+    400096: IK.Knee.R
+    400098: IK.Leg.L
+    400100: IK.Leg.R
+    400102: MiddleArm.L
+    400104: MiddleArm.R
+    400106: MiddleLeg.L
+    400108: MiddleLeg.R
+    400110: TopArm.L
+    400112: TopArm.R
+    400114: TopLeg.L
+    400116: TopLeg.R
+    400118: Trex_Rigged
+    4300000: Cube
+    4300002: Trex_Rigged
+    4300004: Cylinder
+    4300006: Cylinder.001
+    7400000: Armature|Attack
+    7400002: Armature|Eating
+    7400004: Armature|Running
+    7400006: Armature|Walking
+    7400008: Armature|Attack0
+    7400010: Armature|Die
+    7400012: Armature|isDead
+    9500000: //RootNode
+    13700000: Cube
+    13700002: Cylinder
+    13700004: Cylinder.001
+    13700006: Trex_Rigged
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Attack
+      takeName: Armature|Attack
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BodyBack
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.L
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.L/BackMiddleLeg.L
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.R
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.R/BackMiddleLeg.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.L/BackDownLeg.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.R/BackDownLeg.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackKnee.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackKnee.R
+        weight: 1
+      - path: Armature/BodyBack/Tail1
+        weight: 1
+      - path: Armature/BodyBack/Tail1/Tail2
+        weight: 1
+      - path: Armature/BodyBack/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Armature/BodyFront
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.L
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.L/FrontMiddleLeg.L
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.R
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.R/FrontMiddleLeg.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.L/FrontDownLeg.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.R/FrontDownLeg.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontKnee.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontKnee.R
+        weight: 1
+      - path: Armature/BodyFront/Neck
+        weight: 1
+      - path: Armature/BodyFront/Neck/Head
+        weight: 1
+      - path: Armature/IK_Body
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Eating
+      takeName: Armature|Eating
+      firstFrame: 0
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BodyBack
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.L
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.L/BackMiddleLeg.L
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.R
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.R/BackMiddleLeg.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.L/BackDownLeg.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.R/BackDownLeg.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackKnee.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackKnee.R
+        weight: 1
+      - path: Armature/BodyBack/Tail1
+        weight: 1
+      - path: Armature/BodyBack/Tail1/Tail2
+        weight: 1
+      - path: Armature/BodyBack/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Armature/BodyFront
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.L
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.L/FrontMiddleLeg.L
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.R
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.R/FrontMiddleLeg.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.L/FrontDownLeg.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.R/FrontDownLeg.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontKnee.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontKnee.R
+        weight: 1
+      - path: Armature/BodyFront/Neck
+        weight: 1
+      - path: Armature/BodyFront/Neck/Head
+        weight: 1
+      - path: Armature/IK_Body
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Running
+      takeName: Armature|Running
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BodyBack
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.L
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.L/BackMiddleLeg.L
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.R
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.R/BackMiddleLeg.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.L/BackDownLeg.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.R/BackDownLeg.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackKnee.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackKnee.R
+        weight: 1
+      - path: Armature/BodyBack/Tail1
+        weight: 1
+      - path: Armature/BodyBack/Tail1/Tail2
+        weight: 1
+      - path: Armature/BodyBack/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Armature/BodyFront
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.L
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.L/FrontMiddleLeg.L
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.R
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.R/FrontMiddleLeg.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.L/FrontDownLeg.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.R/FrontDownLeg.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontKnee.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontKnee.R
+        weight: 1
+      - path: Armature/BodyFront/Neck
+        weight: 1
+      - path: Armature/BodyFront/Neck/Head
+        weight: 1
+      - path: Armature/IK_Body
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Walking
+      takeName: Armature|Walking
+      firstFrame: 0
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BodyBack
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.L
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.L/BackMiddleLeg.L
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.R
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.R/BackMiddleLeg.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.L/BackDownLeg.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.R/BackDownLeg.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackKnee.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackKnee.R
+        weight: 1
+      - path: Armature/BodyBack/Tail1
+        weight: 1
+      - path: Armature/BodyBack/Tail1/Tail2
+        weight: 1
+      - path: Armature/BodyBack/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Armature/BodyFront
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.L
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.L/FrontMiddleLeg.L
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.R
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.R/FrontMiddleLeg.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.L/FrontDownLeg.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.R/FrontDownLeg.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontKnee.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontKnee.R
+        weight: 1
+      - path: Armature/BodyFront/Neck
+        weight: 1
+      - path: Armature/BodyFront/Neck/Head
+        weight: 1
+      - path: Armature/IK_Body
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Die
+      takeName: Armature|Die
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BodyBack
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.L
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.L/BackMiddleLeg.L
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.R
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.R/BackMiddleLeg.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.L/BackDownLeg.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.R/BackDownLeg.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackKnee.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackKnee.R
+        weight: 1
+      - path: Armature/BodyBack/Tail1
+        weight: 1
+      - path: Armature/BodyBack/Tail1/Tail2
+        weight: 1
+      - path: Armature/BodyBack/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Armature/BodyFront
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.L
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.L/FrontMiddleLeg.L
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.R
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.R/FrontMiddleLeg.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.L/FrontDownLeg.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.R/FrontDownLeg.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontKnee.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontKnee.R
+        weight: 1
+      - path: Armature/BodyFront/Neck
+        weight: 1
+      - path: Armature/BodyFront/Neck/Head
+        weight: 1
+      - path: Armature/IK_Body
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|isDead
+      takeName: Armature|isDead
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BodyBack
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.L
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.L/BackMiddleLeg.L
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.R
+        weight: 1
+      - path: Armature/BodyBack/BackUpperLeg.R/BackMiddleLeg.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.L/BackDownLeg.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackFoot.R/BackDownLeg.R
+        weight: 1
+      - path: Armature/BodyBack/IK_BackKnee.L
+        weight: 1
+      - path: Armature/BodyBack/IK_BackKnee.R
+        weight: 1
+      - path: Armature/BodyBack/Tail1
+        weight: 1
+      - path: Armature/BodyBack/Tail1/Tail2
+        weight: 1
+      - path: Armature/BodyBack/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Armature/BodyFront
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.L
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.L/FrontMiddleLeg.L
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.R
+        weight: 1
+      - path: Armature/BodyFront/FrontUpperLeg.R/FrontMiddleLeg.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.L/FrontDownLeg.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontFoot.R/FrontDownLeg.R
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontKnee.L
+        weight: 1
+      - path: Armature/BodyFront/IK_FrontKnee.R
+        weight: 1
+      - path: Armature/BodyFront/Neck
+        weight: 1
+      - path: Armature/BodyFront/Neck/Head
+        weight: 1
+      - path: Armature/IK_Body
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .25
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

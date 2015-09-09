@@ -1,0 +1,1604 @@
+fileFormatVersion: 2
+guid: 1291afad9814a674e8229f4727131082
+timeCreated: 1428833165
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ankle.ik.L
+    100002: ankle.ik.R
+    100004: ankle.L
+    100006: ankle.R
+    100008: arm_base.L
+    100010: arm_base.R
+    100012: arm_hinge.L
+    100014: arm_hinge.R
+    100016: arm_socket.L
+    100018: arm_socket.R
+    100020: ball.marker.L
+    100022: ball.marker.R
+    100024: breast.L
+    100026: breast.R
+    100028: Camera
+    100030: chest
+    100032: chest-1
+    100034: clavicle.L
+    100036: clavicle.R
+    100038: CustomShapes
+    100040: DEF-chest
+    100042: DEF-chest-1
+    100044: DEF-clavicle.L
+    100046: DEF-clavicle.R
+    100048: DEF-deltoid.L
+    100050: DEF-deltoid.R
+    100052: DEF-eye.L
+    100054: DEF-eye.R
+    100056: DEF-f_index.01.L
+    100058: DEF-f_index.01.R
+    100060: DEF-f_index.02.L
+    100062: DEF-f_index.02.R
+    100064: DEF-f_index.03.L
+    100066: DEF-f_index.03.R
+    100068: DEF-f_middle.01.L
+    100070: DEF-f_middle.01.R
+    100072: DEF-f_middle.02.L
+    100074: DEF-f_middle.02.R
+    100076: DEF-f_middle.03.L
+    100078: DEF-f_middle.03.R
+    100080: DEF-f_pinky.01.L
+    100082: DEF-f_pinky.01.R
+    100084: DEF-f_pinky.02.L
+    100086: DEF-f_pinky.02.R
+    100088: DEF-f_pinky.03.L
+    100090: DEF-f_pinky.03.R
+    100092: DEF-f_ring.01.L
+    100094: DEF-f_ring.01.R
+    100096: DEF-f_ring.02.L
+    100098: DEF-f_ring.02.R
+    100100: DEF-f_ring.03.L
+    100102: DEF-f_ring.03.R
+    100104: DEF-femoris.L
+    100106: DEF-femoris.R
+    100108: DEF-foot.L
+    100110: DEF-foot.R
+    100112: DEF-forearm.01.L
+    100114: DEF-forearm.01.R
+    100116: DEF-forearm.02.L
+    100118: DEF-forearm.02.R
+    100120: DEF-forearm.03.L
+    100122: DEF-forearm.03.R
+    100124: DEF-gluteus.L
+    100126: DEF-gluteus.R
+    100128: DEF-hand.L
+    100130: DEF-hand.R
+    100132: DEF-head
+    100134: DEF-hips
+    100136: DEF-jaw
+    100138: DEF-lat_dorsi.L
+    100140: DEF-lat_dorsi.R
+    100142: DEF-lolid.L
+    100144: DEF-lolid.R
+    100146: DEF-neck
+    100148: DEF-palm_index.L
+    100150: DEF-palm_index.R
+    100152: DEF-palm_middle.L
+    100154: DEF-palm_middle.R
+    100156: DEF-palm_pinky.L
+    100158: DEF-palm_pinky.R
+    100160: DEF-palm_ring.L
+    100162: DEF-palm_ring.R
+    100164: DEF-pectoralis.L
+    100166: DEF-pectoralis.R
+    100168: DEF-platysma.L
+    100170: DEF-platysma.R
+    100172: DEF-quadriceps.L
+    100174: DEF-quadriceps.R
+    100176: DEF-scapula.L
+    100178: DEF-scapula.R
+    100180: DEF-shin.01.L
+    100182: DEF-shin.01.R
+    100184: DEF-shin.02.L
+    100186: DEF-shin.02.R
+    100188: DEF-shin.03.L
+    100190: DEF-shin.03.R
+    100192: DEF-soleus.L
+    100194: DEF-soleus.R
+    100196: DEF-spine
+    100198: DEF-spine-1
+    100200: DEF-stomach
+    100202: DEF-thigh.L
+    100204: DEF-thigh.R
+    100206: DEF-thumb.01.L
+    100208: DEF-thumb.01.R
+    100210: DEF-thumb.02.L
+    100212: DEF-thumb.02.R
+    100214: DEF-thumb.03.L
+    100216: DEF-thumb.03.R
+    100218: DEF-toe.L
+    100220: DEF-toe.R
+    100222: DEF-tongue_base
+    100224: DEF-tongue_mid
+    100226: DEF-tongue_tip
+    100228: DEF-trapezius1.L
+    100230: DEF-trapezius1.R
+    100232: DEF-trapezius2.L
+    100234: DEF-trapezius2.R
+    100236: DEF-uplid.L
+    100238: DEF-uplid.R
+    100240: DEF-upper_arm.L
+    100242: DEF-upper_arm.R
+    100244: deltoid.L
+    100246: deltoid.R
+    100248: elbow.link.L
+    100250: elbow.link.R
+    100252: elbow.pt.ik.L
+    100254: elbow.pt.ik.R
+    100256: eye.L
+    100258: eye.R
+    100260: eye_parent.L
+    100262: eye_parent.R
+    100264: eyes
+    100266: f_index.01.L
+    100268: f_index.01.R
+    100270: f_index.02.L
+    100272: f_index.02.R
+    100274: f_index.03.L
+    100276: f_index.03.R
+    100278: f_middle.01.L
+    100280: f_middle.01.R
+    100282: f_middle.02.L
+    100284: f_middle.02.R
+    100286: f_middle.03.L
+    100288: f_middle.03.R
+    100290: f_pinky.01.L
+    100292: f_pinky.01.R
+    100294: f_pinky.02.L
+    100296: f_pinky.02.R
+    100298: f_pinky.03.L
+    100300: f_pinky.03.R
+    100302: f_ring.01.L
+    100304: f_ring.01.R
+    100306: f_ring.02.L
+    100308: f_ring.02.R
+    100310: f_ring.03.L
+    100312: f_ring.03.R
+    100314: foot.fk.L
+    100316: foot.fk.R
+    100318: foot.ik.L
+    100320: foot.ik.R
+    100322: foot.L
+    100324: foot.pt.ik.L
+    100326: foot.pt.ik.R
+    100328: foot.R
+    100330: foot.rev.L
+    100332: foot.rev.R
+    100334: forearm.fk.L
+    100336: forearm.fk.R
+    100338: forearm.ik.L
+    100340: forearm.ik.R
+    100342: forearm.L
+    100344: forearm.R
+    100346: gaze
+    100348: gaze_parent
+    100350: gluteus0.L
+    100352: gluteus0.R
+    100354: GZM_Ball025
+    100356: GZM_Breast_L
+    100358: GZM_Breast_R
+    100360: GZM_Circle025
+    100362: GZM_CircleChest
+    100364: GZM_CircleHips
+    100366: GZM_CircleSpine
+    100368: GZM_CrownHips
+    100370: GZM_Cube025
+    100372: GZM_FaceHead
+    100374: GZM_FaceJaw
+    100376: GZM_Foot
+    100378: GZM_FootIK
+    100380: GZM_Gaze
+    100382: GZM_Hand
+    100384: GZM_HandIK
+    100386: GZM_Head
+    100388: GZM_Jaw
+    100390: GZM_Knuckle
+    100392: GZM_LoLid
+    100394: GZM_Master
+    100396: GZM_Neck
+    100398: GZM_RevFoot
+    100400: GZM_RevToe
+    100402: GZM_Root
+    100404: GZM_Shoulder
+    100406: GZM_Toe
+    100408: GZM_Tongue
+    100410: GZM_UpLid
+    100412: hand.fk.L
+    100414: hand.fk.R
+    100416: hand.ik.L
+    100418: hand.ik.R
+    100420: hand.L
+    100422: hand.R
+    100424: head
+    100426: heel.marker.L
+    100428: heel.marker.R
+    100430: hips
+    100432: hipside.L
+    100434: hipside.R
+    100436: index.L
+    100438: index.R
+    100440: jaw
+    100442: knee.link.L
+    100444: knee.link.R
+    100446: knee.pt.ik.L
+    100448: knee.pt.ik.R
+    100450: Lamp
+    100452: leg_base.L
+    100454: leg_base.R
+    100456: leg_hinge.L
+    100458: leg_hinge.R
+    100460: leg_socket.L
+    100462: leg_socket.R
+    100464: lolid.L
+    100466: lolid.R
+    100468: master
+    100470: middle.L
+    100472: middle.R
+    100474: neck
+    100476: palm_index.L
+    100478: palm_index.R
+    100480: palm_middle.L
+    100482: palm_middle.R
+    100484: palm_pinky.L
+    100486: palm_pinky.R
+    100488: palm_ring.L
+    100490: palm_ring.R
+    100492: pinky.L
+    100494: pinky.R
+    100496: pubis
+    100498: ring.L
+    100500: ring.R
+    100502: root
+    100504: shin.fk.L
+    100506: shin.fk.R
+    100508: shin.ik.L
+    100510: shin.ik.R
+    100512: shin.L
+    100514: shin.R
+    100516: sole.L
+    100518: sole.R
+    100520: spine
+    100522: spine-1
+    100524: testff
+    100526: //RootNode
+    100528: testff:Body
+    100530: testff:Body_MeshPart0
+    100532: testff:Body_MeshPart1
+    100534: testff:Eyebrow001
+    100536: testff:Eyelashes01
+    100538: testff:Low-Poly
+    100540: thigh.fk.L
+    100542: thigh.fk.R
+    100544: thigh.ik.L
+    100546: thigh.ik.R
+    100548: thigh.L
+    100550: thigh.R
+    100552: thumb.01.L
+    100554: thumb.01.R
+    100556: thumb.02.L
+    100558: thumb.02.R
+    100560: thumb.03.L
+    100562: thumb.03.R
+    100564: thumb.L
+    100566: thumb.R
+    100568: toe.fk.L
+    100570: toe.fk.R
+    100572: toe.L
+    100574: toe.marker.L
+    100576: toe.marker.R
+    100578: toe.R
+    100580: toe.rev.L
+    100582: toe.rev.R
+    100584: tongue_base
+    100586: tongue_mid
+    100588: tongue_tip
+    100590: uplid.L
+    100592: uplid.R
+    100594: upper_arm.fk.L
+    100596: upper_arm.fk.R
+    100598: upper_arm.ik.L
+    100600: upper_arm.ik.R
+    100602: upper_arm.L
+    100604: upper_arm.R
+    100606: Button
+    100608: Button.001
+    100610: Circle.002
+    100612: Cube
+    100614: Cube.002
+    100616: Cube.003
+    100618: Cube.004
+    100620: Shirt
+    100622: Shirt.001
+    100624: Shirt.002
+    100626: Circle.001
+    100628: Circle.003
+    100630: Cube.001
+    100632: Mantle
+    100634: pantie
+    100636: Shirt.003
+    100638: Short
+    100640: Short.001
+    100642: Armature
+    100644: Base
+    100646: Body
+    100648: Chest
+    100650: Circle.000
+    100652: Cube.000
+    100654: Cylinder
+    100656: eyebrow001.obj
+    100658: eyelashes01.obj
+    100660: F1a.L
+    100662: F1a.R
+    100664: F1b.L
+    100666: F1b.R
+    100668: F1c.L
+    100670: F1c.R
+    100672: F2a.L
+    100674: F2a.R
+    100676: F2b.L
+    100678: F2b.R
+    100680: F2c.L
+    100682: F2c.R
+    100684: F3a.L
+    100686: F3a.R
+    100688: F3b.L
+    100690: F3b.R
+    100692: F3c.L
+    100694: F3c.R
+    100696: F4a.L
+    100698: F4a.R
+    100700: F4b.L
+    100702: F4b.R
+    100704: F4c.L
+    100706: F4c.R
+    100708: FaceDetails
+    100710: Foot.L
+    100712: Foot.R
+    100714: Head
+    100716: Hemi
+    100718: IkLeg.L
+    100720: IkLeg.R
+    100722: Knee.L
+    100724: Knee.R
+    100726: low-poly.obj
+    100728: LowerArm.L
+    100730: LowerArm.R
+    100732: Lowerleg.L
+    100734: Lowerleg.R
+    100736: Neck
+    100738: Palm.L
+    100740: Palm.R
+    100742: Pantie
+    100744: Pelvis
+    100746: Plane.001
+    100748: Root
+    100750: Shirt.004
+    100752: Shoulder.L
+    100754: Shoulder.R
+    100756: Slip
+    100758: Stomach
+    100760: Ta.L
+    100762: Ta.R
+    100764: Tb.L
+    100766: Tb.R
+    100768: Tc.L
+    100770: Tc.R
+    100772: Tight.L
+    100774: Tight.R
+    100776: Toe.L
+    100778: Toe.R
+    100780: UpperArm.L
+    100782: UpperArm.R
+    100784: Cube.005
+    400000: ankle.ik.L
+    400002: ankle.ik.R
+    400004: ankle.L
+    400006: ankle.R
+    400008: arm_base.L
+    400010: arm_base.R
+    400012: arm_hinge.L
+    400014: arm_hinge.R
+    400016: arm_socket.L
+    400018: arm_socket.R
+    400020: ball.marker.L
+    400022: ball.marker.R
+    400024: breast.L
+    400026: breast.R
+    400028: Camera
+    400030: chest
+    400032: chest-1
+    400034: clavicle.L
+    400036: clavicle.R
+    400038: CustomShapes
+    400040: DEF-chest
+    400042: DEF-chest-1
+    400044: DEF-clavicle.L
+    400046: DEF-clavicle.R
+    400048: DEF-deltoid.L
+    400050: DEF-deltoid.R
+    400052: DEF-eye.L
+    400054: DEF-eye.R
+    400056: DEF-f_index.01.L
+    400058: DEF-f_index.01.R
+    400060: DEF-f_index.02.L
+    400062: DEF-f_index.02.R
+    400064: DEF-f_index.03.L
+    400066: DEF-f_index.03.R
+    400068: DEF-f_middle.01.L
+    400070: DEF-f_middle.01.R
+    400072: DEF-f_middle.02.L
+    400074: DEF-f_middle.02.R
+    400076: DEF-f_middle.03.L
+    400078: DEF-f_middle.03.R
+    400080: DEF-f_pinky.01.L
+    400082: DEF-f_pinky.01.R
+    400084: DEF-f_pinky.02.L
+    400086: DEF-f_pinky.02.R
+    400088: DEF-f_pinky.03.L
+    400090: DEF-f_pinky.03.R
+    400092: DEF-f_ring.01.L
+    400094: DEF-f_ring.01.R
+    400096: DEF-f_ring.02.L
+    400098: DEF-f_ring.02.R
+    400100: DEF-f_ring.03.L
+    400102: DEF-f_ring.03.R
+    400104: DEF-femoris.L
+    400106: DEF-femoris.R
+    400108: DEF-foot.L
+    400110: DEF-foot.R
+    400112: DEF-forearm.01.L
+    400114: DEF-forearm.01.R
+    400116: DEF-forearm.02.L
+    400118: DEF-forearm.02.R
+    400120: DEF-forearm.03.L
+    400122: DEF-forearm.03.R
+    400124: DEF-gluteus.L
+    400126: DEF-gluteus.R
+    400128: DEF-hand.L
+    400130: DEF-hand.R
+    400132: DEF-head
+    400134: DEF-hips
+    400136: DEF-jaw
+    400138: DEF-lat_dorsi.L
+    400140: DEF-lat_dorsi.R
+    400142: DEF-lolid.L
+    400144: DEF-lolid.R
+    400146: DEF-neck
+    400148: DEF-palm_index.L
+    400150: DEF-palm_index.R
+    400152: DEF-palm_middle.L
+    400154: DEF-palm_middle.R
+    400156: DEF-palm_pinky.L
+    400158: DEF-palm_pinky.R
+    400160: DEF-palm_ring.L
+    400162: DEF-palm_ring.R
+    400164: DEF-pectoralis.L
+    400166: DEF-pectoralis.R
+    400168: DEF-platysma.L
+    400170: DEF-platysma.R
+    400172: DEF-quadriceps.L
+    400174: DEF-quadriceps.R
+    400176: DEF-scapula.L
+    400178: DEF-scapula.R
+    400180: DEF-shin.01.L
+    400182: DEF-shin.01.R
+    400184: DEF-shin.02.L
+    400186: DEF-shin.02.R
+    400188: DEF-shin.03.L
+    400190: DEF-shin.03.R
+    400192: DEF-soleus.L
+    400194: DEF-soleus.R
+    400196: DEF-spine
+    400198: DEF-spine-1
+    400200: DEF-stomach
+    400202: DEF-thigh.L
+    400204: DEF-thigh.R
+    400206: DEF-thumb.01.L
+    400208: DEF-thumb.01.R
+    400210: DEF-thumb.02.L
+    400212: DEF-thumb.02.R
+    400214: DEF-thumb.03.L
+    400216: DEF-thumb.03.R
+    400218: DEF-toe.L
+    400220: DEF-toe.R
+    400222: DEF-tongue_base
+    400224: DEF-tongue_mid
+    400226: DEF-tongue_tip
+    400228: DEF-trapezius1.L
+    400230: DEF-trapezius1.R
+    400232: DEF-trapezius2.L
+    400234: DEF-trapezius2.R
+    400236: DEF-uplid.L
+    400238: DEF-uplid.R
+    400240: DEF-upper_arm.L
+    400242: DEF-upper_arm.R
+    400244: deltoid.L
+    400246: deltoid.R
+    400248: elbow.link.L
+    400250: elbow.link.R
+    400252: elbow.pt.ik.L
+    400254: elbow.pt.ik.R
+    400256: eye.L
+    400258: eye.R
+    400260: eye_parent.L
+    400262: eye_parent.R
+    400264: eyes
+    400266: f_index.01.L
+    400268: f_index.01.R
+    400270: f_index.02.L
+    400272: f_index.02.R
+    400274: f_index.03.L
+    400276: f_index.03.R
+    400278: f_middle.01.L
+    400280: f_middle.01.R
+    400282: f_middle.02.L
+    400284: f_middle.02.R
+    400286: f_middle.03.L
+    400288: f_middle.03.R
+    400290: f_pinky.01.L
+    400292: f_pinky.01.R
+    400294: f_pinky.02.L
+    400296: f_pinky.02.R
+    400298: f_pinky.03.L
+    400300: f_pinky.03.R
+    400302: f_ring.01.L
+    400304: f_ring.01.R
+    400306: f_ring.02.L
+    400308: f_ring.02.R
+    400310: f_ring.03.L
+    400312: f_ring.03.R
+    400314: foot.fk.L
+    400316: foot.fk.R
+    400318: foot.ik.L
+    400320: foot.ik.R
+    400322: foot.L
+    400324: foot.pt.ik.L
+    400326: foot.pt.ik.R
+    400328: foot.R
+    400330: foot.rev.L
+    400332: foot.rev.R
+    400334: forearm.fk.L
+    400336: forearm.fk.R
+    400338: forearm.ik.L
+    400340: forearm.ik.R
+    400342: forearm.L
+    400344: forearm.R
+    400346: gaze
+    400348: gaze_parent
+    400350: gluteus0.L
+    400352: gluteus0.R
+    400354: GZM_Ball025
+    400356: GZM_Breast_L
+    400358: GZM_Breast_R
+    400360: GZM_Circle025
+    400362: GZM_CircleChest
+    400364: GZM_CircleHips
+    400366: GZM_CircleSpine
+    400368: GZM_CrownHips
+    400370: GZM_Cube025
+    400372: GZM_FaceHead
+    400374: GZM_FaceJaw
+    400376: GZM_Foot
+    400378: GZM_FootIK
+    400380: GZM_Gaze
+    400382: GZM_Hand
+    400384: GZM_HandIK
+    400386: GZM_Head
+    400388: GZM_Jaw
+    400390: GZM_Knuckle
+    400392: GZM_LoLid
+    400394: GZM_Master
+    400396: GZM_Neck
+    400398: GZM_RevFoot
+    400400: GZM_RevToe
+    400402: GZM_Root
+    400404: GZM_Shoulder
+    400406: GZM_Toe
+    400408: GZM_Tongue
+    400410: GZM_UpLid
+    400412: hand.fk.L
+    400414: hand.fk.R
+    400416: hand.ik.L
+    400418: hand.ik.R
+    400420: hand.L
+    400422: hand.R
+    400424: head
+    400426: heel.marker.L
+    400428: heel.marker.R
+    400430: hips
+    400432: hipside.L
+    400434: hipside.R
+    400436: index.L
+    400438: index.R
+    400440: jaw
+    400442: knee.link.L
+    400444: knee.link.R
+    400446: knee.pt.ik.L
+    400448: knee.pt.ik.R
+    400450: Lamp
+    400452: leg_base.L
+    400454: leg_base.R
+    400456: leg_hinge.L
+    400458: leg_hinge.R
+    400460: leg_socket.L
+    400462: leg_socket.R
+    400464: lolid.L
+    400466: lolid.R
+    400468: master
+    400470: middle.L
+    400472: middle.R
+    400474: neck
+    400476: palm_index.L
+    400478: palm_index.R
+    400480: palm_middle.L
+    400482: palm_middle.R
+    400484: palm_pinky.L
+    400486: palm_pinky.R
+    400488: palm_ring.L
+    400490: palm_ring.R
+    400492: pinky.L
+    400494: pinky.R
+    400496: pubis
+    400498: ring.L
+    400500: ring.R
+    400502: root
+    400504: shin.fk.L
+    400506: shin.fk.R
+    400508: shin.ik.L
+    400510: shin.ik.R
+    400512: shin.L
+    400514: shin.R
+    400516: sole.L
+    400518: sole.R
+    400520: spine
+    400522: spine-1
+    400524: testff
+    400526: //RootNode
+    400528: testff:Body
+    400530: testff:Body_MeshPart0
+    400532: testff:Body_MeshPart1
+    400534: testff:Eyebrow001
+    400536: testff:Eyelashes01
+    400538: testff:Low-Poly
+    400540: thigh.fk.L
+    400542: thigh.fk.R
+    400544: thigh.ik.L
+    400546: thigh.ik.R
+    400548: thigh.L
+    400550: thigh.R
+    400552: thumb.01.L
+    400554: thumb.01.R
+    400556: thumb.02.L
+    400558: thumb.02.R
+    400560: thumb.03.L
+    400562: thumb.03.R
+    400564: thumb.L
+    400566: thumb.R
+    400568: toe.fk.L
+    400570: toe.fk.R
+    400572: toe.L
+    400574: toe.marker.L
+    400576: toe.marker.R
+    400578: toe.R
+    400580: toe.rev.L
+    400582: toe.rev.R
+    400584: tongue_base
+    400586: tongue_mid
+    400588: tongue_tip
+    400590: uplid.L
+    400592: uplid.R
+    400594: upper_arm.fk.L
+    400596: upper_arm.fk.R
+    400598: upper_arm.ik.L
+    400600: upper_arm.ik.R
+    400602: upper_arm.L
+    400604: upper_arm.R
+    400606: Button
+    400608: Button.001
+    400610: Circle.002
+    400612: Cube
+    400614: Cube.002
+    400616: Cube.003
+    400618: Cube.004
+    400620: Shirt
+    400622: Shirt.001
+    400624: Shirt.002
+    400626: Circle.001
+    400628: Circle.003
+    400630: Cube.001
+    400632: Mantle
+    400634: pantie
+    400636: Shirt.003
+    400638: Short
+    400640: Short.001
+    400642: Armature
+    400644: Base
+    400646: Body
+    400648: Chest
+    400650: Circle.000
+    400652: Cube.000
+    400654: Cylinder
+    400656: eyebrow001.obj
+    400658: eyelashes01.obj
+    400660: F1a.L
+    400662: F1a.R
+    400664: F1b.L
+    400666: F1b.R
+    400668: F1c.L
+    400670: F1c.R
+    400672: F2a.L
+    400674: F2a.R
+    400676: F2b.L
+    400678: F2b.R
+    400680: F2c.L
+    400682: F2c.R
+    400684: F3a.L
+    400686: F3a.R
+    400688: F3b.L
+    400690: F3b.R
+    400692: F3c.L
+    400694: F3c.R
+    400696: F4a.L
+    400698: F4a.R
+    400700: F4b.L
+    400702: F4b.R
+    400704: F4c.L
+    400706: F4c.R
+    400708: FaceDetails
+    400710: Foot.L
+    400712: Foot.R
+    400714: Head
+    400716: Hemi
+    400718: IkLeg.L
+    400720: IkLeg.R
+    400722: Knee.L
+    400724: Knee.R
+    400726: low-poly.obj
+    400728: LowerArm.L
+    400730: LowerArm.R
+    400732: Lowerleg.L
+    400734: Lowerleg.R
+    400736: Neck
+    400738: Palm.L
+    400740: Palm.R
+    400742: Pantie
+    400744: Pelvis
+    400746: Plane.001
+    400748: Root
+    400750: Shirt.004
+    400752: Shoulder.L
+    400754: Shoulder.R
+    400756: Slip
+    400758: Stomach
+    400760: Ta.L
+    400762: Ta.R
+    400764: Tb.L
+    400766: Tb.R
+    400768: Tc.L
+    400770: Tc.R
+    400772: Tight.L
+    400774: Tight.R
+    400776: Toe.L
+    400778: Toe.R
+    400780: UpperArm.L
+    400782: UpperArm.R
+    400784: Cube.005
+    2300000: GZM_Ball025
+    2300002: GZM_Breast_L
+    2300004: GZM_Breast_R
+    2300006: GZM_Circle025
+    2300008: GZM_CircleChest
+    2300010: GZM_CircleHips
+    2300012: GZM_CircleSpine
+    2300014: GZM_CrownHips
+    2300016: GZM_Cube025
+    2300018: GZM_FaceHead
+    2300020: GZM_FaceJaw
+    2300022: GZM_Foot
+    2300024: GZM_FootIK
+    2300026: GZM_Gaze
+    2300028: GZM_Hand
+    2300030: GZM_HandIK
+    2300032: GZM_Head
+    2300034: GZM_Jaw
+    2300036: GZM_Knuckle
+    2300038: GZM_LoLid
+    2300040: GZM_Master
+    2300042: GZM_Neck
+    2300044: GZM_RevFoot
+    2300046: GZM_RevToe
+    2300048: GZM_Root
+    2300050: GZM_Shoulder
+    2300052: GZM_Toe
+    2300054: GZM_Tongue
+    2300056: GZM_UpLid
+    2300058: testff:Body
+    2300060: testff:Eyebrow001
+    2300062: testff:Eyelashes01
+    2300064: testff:Low-Poly
+    2300066: Button
+    2300068: Button.001
+    2300070: Circle.002
+    2300072: Cube
+    2300074: Cube.002
+    2300076: Cube.003
+    2300078: Cube.004
+    2300080: Shirt
+    2300082: Shirt.001
+    2300084: Shirt.002
+    2300086: Circle.001
+    2300088: Circle.003
+    2300090: Cube.001
+    2300092: Mantle
+    2300094: pantie
+    2300096: Shirt.003
+    2300098: Short
+    2300100: Short.001
+    2300102: Shirt.004
+    3300000: GZM_Ball025
+    3300002: GZM_Breast_L
+    3300004: GZM_Breast_R
+    3300006: GZM_Circle025
+    3300008: GZM_CircleChest
+    3300010: GZM_CircleHips
+    3300012: GZM_CircleSpine
+    3300014: GZM_CrownHips
+    3300016: GZM_Cube025
+    3300018: GZM_FaceHead
+    3300020: GZM_FaceJaw
+    3300022: GZM_Foot
+    3300024: GZM_FootIK
+    3300026: GZM_Gaze
+    3300028: GZM_Hand
+    3300030: GZM_HandIK
+    3300032: GZM_Head
+    3300034: GZM_Jaw
+    3300036: GZM_Knuckle
+    3300038: GZM_LoLid
+    3300040: GZM_Master
+    3300042: GZM_Neck
+    3300044: GZM_RevFoot
+    3300046: GZM_RevToe
+    3300048: GZM_Root
+    3300050: GZM_Shoulder
+    3300052: GZM_Toe
+    3300054: GZM_Tongue
+    3300056: GZM_UpLid
+    3300058: testff:Body
+    3300060: testff:Eyebrow001
+    3300062: testff:Eyelashes01
+    3300064: testff:Low-Poly
+    3300066: Button
+    3300068: Button.001
+    3300070: Circle.002
+    3300072: Cube
+    3300074: Cube.002
+    3300076: Cube.003
+    3300078: Cube.004
+    3300080: Shirt
+    3300082: Shirt.001
+    3300084: Shirt.002
+    3300086: Circle.001
+    3300088: Circle.003
+    3300090: Cube.001
+    3300092: Mantle
+    3300094: pantie
+    3300096: Shirt.003
+    3300098: Short
+    3300100: Short.001
+    3300102: Shirt.004
+    4300000: Shirt.002
+    4300002: Button.001
+    4300004: Cube.004
+    4300006: Cube.003
+    4300008: Cube.002
+    4300010: Shirt.001
+    4300012: Short.001
+    4300014: Button
+    4300016: Circle.002
+    4300018: GZM_Shoulder
+    4300020: pantie
+    4300022: Short
+    4300024: Circle.001
+    4300026: Cube.001
+    4300028: Circle.003
+    4300030: GZM_Hand
+    4300032: GZM_Cube025
+    4300034: GZM_FootIK
+    4300036: GZM_CircleHips
+    4300038: GZM_Foot
+    4300040: GZM_LoLid
+    4300042: GZM_Gaze
+    4300044: GZM_CrownHips
+    4300046: GZM_Circle025
+    4300048: GZM_Master
+    4300050: GZM_CircleChest
+    4300052: GZM_Knuckle
+    4300054: GZM_CircleSpine
+    4300056: GZM_Toe
+    4300058: testff:Eyelashes01
+    4300060: testff:Eyebrow001
+    4300062: testff:Low-Poly
+    4300064: testff:Body_MeshPart0
+    4300066: testff:Body_MeshPart1
+    4300068: testff:Body
+    4300070: GZM_RevToe
+    4300072: GZM_Ball025
+    4300074: GZM_HandIK
+    4300076: GZM_RevFoot
+    4300078: GZM_Breast_L
+    4300080: GZM_Root
+    4300082: GZM_Jaw
+    4300084: GZM_Tongue
+    4300086: GZM_FaceHead
+    4300088: Shirt
+    4300090: GZM_Breast_R
+    4300092: GZM_Neck
+    4300094: GZM_Head
+    4300096: GZM_UpLid
+    4300098: GZM_FaceJaw
+    4300100: Shirt.004
+    4300102: Cube
+    4300104: Mantle
+    4300106: eyelashes01.obj
+    4300108: eyebrow001.obj
+    4300110: low-poly.obj
+    4300112: Circle.000
+    4300114: Shirt.003
+    4300116: Cube.000
+    4300118: Cylinder
+    4300120: Pantie
+    4300122: Body
+    4300124: Plane.001
+    4300126: FaceDetails
+    4300128: Slip
+    4300130: Cube.005
+    7400000: Armature|Idle
+    7400002: Armature|Run
+    7400004: Armature|Run.001
+    7400006: Short|Run
+    7400008: Pantie|Idle
+    7400010: Body|Run
+    7400012: Shirt|Idle
+    9500000: //RootNode
+    13700000: testff:Body_MeshPart0
+    13700002: testff:Body_MeshPart1
+    13700004: testff:Eyebrow001
+    13700006: testff:Eyelashes01
+    13700008: testff:Low-Poly
+    13700010: testff:Body
+    13700012: Body
+    13700014: Button
+    13700016: Button.001
+    13700018: Circle.000
+    13700020: Circle.001
+    13700022: Circle.002
+    13700024: Circle.003
+    13700026: Cube.000
+    13700028: Cube.001
+    13700030: Cube.002
+    13700032: Cube.003
+    13700034: Cube.004
+    13700036: Cylinder
+    13700038: eyebrow001.obj
+    13700040: eyelashes01.obj
+    13700042: FaceDetails
+    13700044: low-poly.obj
+    13700046: Mantle
+    13700048: Pantie
+    13700050: pantie
+    13700052: Plane.001
+    13700054: Shirt
+    13700056: Shirt.001
+    13700058: Shirt.002
+    13700060: Shirt.003
+    13700062: Short
+    13700064: Short.001
+    13700066: Slip
+    13700068: Cube.005
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Base
+        weight: 1
+      - path: Armature/Root/Base/Pelvis
+        weight: 1
+      - path: Armature/Root/Base/Pelvis/Tight.L
+        weight: 1
+      - path: Armature/Root/Base/Pelvis/Tight.L/Lowerleg.L
+        weight: 1
+      - path: Armature/Root/Base/Pelvis/Tight.L/Lowerleg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Base/Pelvis/Tight.L/Lowerleg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Armature/Root/Base/Pelvis/Tight.R
+        weight: 1
+      - path: Armature/Root/Base/Pelvis/Tight.R/Lowerleg.R
+        weight: 1
+      - path: Armature/Root/Base/Pelvis/Tight.R/Lowerleg.R/Foot.R
+        weight: 1
+      - path: Armature/Root/Base/Pelvis/Tight.R/Lowerleg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F1a.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F1a.L/F1b.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F1a.L/F1b.L/F1c.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F2a.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F2a.L/F2b.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F2a.L/F2b.L/F2c.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F3a.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F3a.L/F3b.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F3a.L/F3b.L/F3c.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F4a.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F4a.L/F4b.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F4a.L/F4b.L/F4c.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/Ta.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/Ta.L/Tb.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/Ta.L/Tb.L/Tc.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F1a.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F1a.R/F1b.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F1a.R/F1b.R/F1c.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F2a.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F2a.R/F2b.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F2a.R/F2b.R/F2c.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F3a.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F3a.R/F3b.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F3a.R/F3b.R/F3c.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F4a.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F4a.R/F4b.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F4a.R/F4b.R/F4c.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/Ta.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/Ta.R/Tb.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/Ta.R/Tb.R/Tc.R
+        weight: 1
+      - path: Armature/Root/IkLeg.L
+        weight: 1
+      - path: Armature/Root/IkLeg.L/Knee.L
+        weight: 1
+      - path: Armature/Root/IkLeg.R
+        weight: 1
+      - path: Armature/Root/IkLeg.R/Knee.R
+        weight: 1
+      - path: Button
+        weight: 1
+      - path: Button.001
+        weight: 1
+      - path: Circle.000
+        weight: 1
+      - path: Circle.001
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.000
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      - path: Cube.004
+        weight: 1
+      - path: CustomShapes
+        weight: 1
+      - path: CustomShapes/GZM_Ball025
+        weight: 1
+      - path: CustomShapes/GZM_Breast_L
+        weight: 1
+      - path: CustomShapes/GZM_Breast_R
+        weight: 1
+      - path: CustomShapes/GZM_Circle025
+        weight: 1
+      - path: CustomShapes/GZM_CircleChest
+        weight: 1
+      - path: CustomShapes/GZM_CircleHips
+        weight: 1
+      - path: CustomShapes/GZM_CircleSpine
+        weight: 1
+      - path: CustomShapes/GZM_CrownHips
+        weight: 1
+      - path: CustomShapes/GZM_Cube025
+        weight: 1
+      - path: CustomShapes/GZM_FaceHead
+        weight: 1
+      - path: CustomShapes/GZM_FaceJaw
+        weight: 1
+      - path: CustomShapes/GZM_Foot
+        weight: 1
+      - path: CustomShapes/GZM_FootIK
+        weight: 1
+      - path: CustomShapes/GZM_Gaze
+        weight: 1
+      - path: CustomShapes/GZM_Hand
+        weight: 1
+      - path: CustomShapes/GZM_HandIK
+        weight: 1
+      - path: CustomShapes/GZM_Head
+        weight: 1
+      - path: CustomShapes/GZM_Jaw
+        weight: 1
+      - path: CustomShapes/GZM_Knuckle
+        weight: 1
+      - path: CustomShapes/GZM_LoLid
+        weight: 1
+      - path: CustomShapes/GZM_Master
+        weight: 1
+      - path: CustomShapes/GZM_Neck
+        weight: 1
+      - path: CustomShapes/GZM_RevFoot
+        weight: 1
+      - path: CustomShapes/GZM_RevToe
+        weight: 1
+      - path: CustomShapes/GZM_Root
+        weight: 1
+      - path: CustomShapes/GZM_Shoulder
+        weight: 1
+      - path: CustomShapes/GZM_Toe
+        weight: 1
+      - path: CustomShapes/GZM_Tongue
+        weight: 1
+      - path: CustomShapes/GZM_UpLid
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: eyebrow001.obj
+        weight: 1
+      - path: eyelashes01.obj
+        weight: 1
+      - path: FaceDetails
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: low-poly.obj
+        weight: 1
+      - path: Mantle
+        weight: 1
+      - path: pantie
+        weight: 1
+      - path: Pantie
+        weight: 1
+      - path: Plane.001
+        weight: 1
+      - path: Shirt
+        weight: 1
+      - path: Shirt.001
+        weight: 1
+      - path: Shirt.002
+        weight: 1
+      - path: Shirt.003
+        weight: 1
+      - path: Short
+        weight: 1
+      - path: Short.001
+        weight: 1
+      - path: Slip
+        weight: 1
+      - path: testff:Body
+        weight: 1
+      - path: testff:Eyebrow001
+        weight: 1
+      - path: testff:Eyelashes01
+        weight: 1
+      - path: testff:Low-Poly
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Run
+      takeName: Armature|Run
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Base
+        weight: 1
+      - path: Armature/Root/Base/Pelvis
+        weight: 1
+      - path: Armature/Root/Base/Pelvis/Tight.L
+        weight: 1
+      - path: Armature/Root/Base/Pelvis/Tight.L/Lowerleg.L
+        weight: 1
+      - path: Armature/Root/Base/Pelvis/Tight.L/Lowerleg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Base/Pelvis/Tight.L/Lowerleg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Armature/Root/Base/Pelvis/Tight.R
+        weight: 1
+      - path: Armature/Root/Base/Pelvis/Tight.R/Lowerleg.R
+        weight: 1
+      - path: Armature/Root/Base/Pelvis/Tight.R/Lowerleg.R/Foot.R
+        weight: 1
+      - path: Armature/Root/Base/Pelvis/Tight.R/Lowerleg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F1a.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F1a.L/F1b.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F1a.L/F1b.L/F1c.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F2a.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F2a.L/F2b.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F2a.L/F2b.L/F2c.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F3a.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F3a.L/F3b.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F3a.L/F3b.L/F3c.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F4a.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F4a.L/F4b.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/F4a.L/F4b.L/F4c.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/Ta.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/Ta.L/Tb.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.L/UpperArm.L/LowerArm.L/Palm.L/Ta.L/Tb.L/Tc.L
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F1a.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F1a.R/F1b.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F1a.R/F1b.R/F1c.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F2a.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F2a.R/F2b.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F2a.R/F2b.R/F2c.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F3a.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F3a.R/F3b.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F3a.R/F3b.R/F3c.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F4a.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F4a.R/F4b.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/F4a.R/F4b.R/F4c.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/Ta.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/Ta.R/Tb.R
+        weight: 1
+      - path: Armature/Root/Base/Stomach/Chest/Shoulder.R/UpperArm.R/LowerArm.R/Palm.R/Ta.R/Tb.R/Tc.R
+        weight: 1
+      - path: Armature/Root/IkLeg.L
+        weight: 1
+      - path: Armature/Root/IkLeg.L/Knee.L
+        weight: 1
+      - path: Armature/Root/IkLeg.R
+        weight: 1
+      - path: Armature/Root/IkLeg.R/Knee.R
+        weight: 1
+      - path: Button
+        weight: 1
+      - path: Button.001
+        weight: 1
+      - path: Circle.000
+        weight: 1
+      - path: Circle.001
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.000
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      - path: Cube.004
+        weight: 1
+      - path: CustomShapes
+        weight: 1
+      - path: CustomShapes/GZM_Ball025
+        weight: 1
+      - path: CustomShapes/GZM_Breast_L
+        weight: 1
+      - path: CustomShapes/GZM_Breast_R
+        weight: 1
+      - path: CustomShapes/GZM_Circle025
+        weight: 1
+      - path: CustomShapes/GZM_CircleChest
+        weight: 1
+      - path: CustomShapes/GZM_CircleHips
+        weight: 1
+      - path: CustomShapes/GZM_CircleSpine
+        weight: 1
+      - path: CustomShapes/GZM_CrownHips
+        weight: 1
+      - path: CustomShapes/GZM_Cube025
+        weight: 1
+      - path: CustomShapes/GZM_FaceHead
+        weight: 1
+      - path: CustomShapes/GZM_FaceJaw
+        weight: 1
+      - path: CustomShapes/GZM_Foot
+        weight: 1
+      - path: CustomShapes/GZM_FootIK
+        weight: 1
+      - path: CustomShapes/GZM_Gaze
+        weight: 1
+      - path: CustomShapes/GZM_Hand
+        weight: 1
+      - path: CustomShapes/GZM_HandIK
+        weight: 1
+      - path: CustomShapes/GZM_Head
+        weight: 1
+      - path: CustomShapes/GZM_Jaw
+        weight: 1
+      - path: CustomShapes/GZM_Knuckle
+        weight: 1
+      - path: CustomShapes/GZM_LoLid
+        weight: 1
+      - path: CustomShapes/GZM_Master
+        weight: 1
+      - path: CustomShapes/GZM_Neck
+        weight: 1
+      - path: CustomShapes/GZM_RevFoot
+        weight: 1
+      - path: CustomShapes/GZM_RevToe
+        weight: 1
+      - path: CustomShapes/GZM_Root
+        weight: 1
+      - path: CustomShapes/GZM_Shoulder
+        weight: 1
+      - path: CustomShapes/GZM_Toe
+        weight: 1
+      - path: CustomShapes/GZM_Tongue
+        weight: 1
+      - path: CustomShapes/GZM_UpLid
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: eyebrow001.obj
+        weight: 1
+      - path: eyelashes01.obj
+        weight: 1
+      - path: FaceDetails
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: low-poly.obj
+        weight: 1
+      - path: Mantle
+        weight: 1
+      - path: pantie
+        weight: 1
+      - path: Pantie
+        weight: 1
+      - path: Plane.001
+        weight: 1
+      - path: Shirt
+        weight: 1
+      - path: Shirt.001
+        weight: 1
+      - path: Shirt.002
+        weight: 1
+      - path: Shirt.003
+        weight: 1
+      - path: Short
+        weight: 1
+      - path: Short.001
+        weight: 1
+      - path: Slip
+        weight: 1
+      - path: testff:Body
+        weight: 1
+      - path: testff:Eyebrow001
+        weight: 1
+      - path: testff:Eyelashes01
+        weight: 1
+      - path: testff:Low-Poly
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .25
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

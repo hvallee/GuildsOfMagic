@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - OpenElevator
+  - Die
+  - Terrain
+  - Boss
+  - EnemyBullet
+  - TransparentFX
+  - SpawnPosition
+  - ItemDatabase
+  - Inventory
+  - Canvas
+  - DroppedItem
+  - Slot
+  - FrontItem
+  - Statistics
+  - HealthBar
+  - PlayerPanel
+  - DamageDisplay
+  - EnemyInfos
+  - ObjectSlot
+  - SpellSlot
+  - Gun
+  - MagicBar
+  - PlayerCharacteristics
+  - PlayerHand
+  - Spell
+  - SpellsInventory
+  - PlayerBack
+  - Carnivore
+  - Herbivore
+  - WeaponIcon
+  - WeaponSpecialIcon
+  - ElementIcon
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Door
+  - Activable
+  - Enemies
+  - Player
+  - EnemiesWeapons
+  - PlayersWeapons
+  - Environment
+  - Bosses
+  - Terrain
+  - Resources
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 1f82ecfeff80f7e48bed4e0f116ecb41
+timeCreated: 1426701129
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Button
+    100002: Button.001
+    100004: Circle.000
+    100006: Circle.001
+    100008: Circle.003
+    100010: Cube.000
+    100012: Cube.001
+    100014: Cube.002
+    100016: Cube.003
+    100018: //RootNode
+    100020: Mantle
+    100022: Shirt.001
+    100024: Shirt.002
+    100026: Shirt.003
+    100028: Shirt.004
+    100030: Short
+    100032: Short.001
+    400000: Button
+    400002: Button.001
+    400004: Circle.000
+    400006: Circle.001
+    400008: Circle.003
+    400010: Cube.000
+    400012: Cube.001
+    400014: Cube.002
+    400016: Cube.003
+    400018: //RootNode
+    400020: Mantle
+    400022: Shirt.001
+    400024: Shirt.002
+    400026: Shirt.003
+    400028: Shirt.004
+    400030: Short
+    400032: Short.001
+    2300000: Button
+    2300002: Button.001
+    2300004: Circle.000
+    2300006: Circle.001
+    2300008: Circle.003
+    2300010: Cube.000
+    2300012: Cube.001
+    2300014: Cube.002
+    2300016: Cube.003
+    2300018: Mantle
+    2300020: Shirt.001
+    2300022: Shirt.002
+    2300024: Shirt.003
+    2300026: Shirt.004
+    2300028: Short
+    2300030: Short.001
+    3300000: Button
+    3300002: Button.001
+    3300004: Circle.000
+    3300006: Circle.001
+    3300008: Circle.003
+    3300010: Cube.000
+    3300012: Cube.001
+    3300014: Cube.002
+    3300016: Cube.003
+    3300018: Mantle
+    3300020: Shirt.001
+    3300022: Shirt.002
+    3300024: Shirt.003
+    3300026: Shirt.004
+    3300028: Short
+    3300030: Short.001
+    4300000: Shirt.004
+    4300002: Short
+    4300004: Circle.001
+    4300006: Cube.001
+    4300008: Circle.003
+    4300010: Shirt.001
+    4300012: Short.001
+    4300014: Mantle
+    4300016: Shirt.003
+    4300018: Circle.000
+    4300020: Button
+    4300022: Cube.003
+    4300024: Button.001
+    4300026: Cube.002
+    4300028: Cube.000
+    4300030: Shirt.002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .25
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

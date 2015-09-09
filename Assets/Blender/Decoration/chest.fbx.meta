@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 547b80eaa97a98e4190056affd0806ef
+timeCreated: 1428737304
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Closer
+    100004: Cube.002
+    100006: Cube.003
+    100008: Cylinder
+    100010: Cylinder.001
+    100012: Top
+    100014: Top/Gold
+    400000: //RootNode
+    400002: Closer
+    400004: Cube.002
+    400006: Cube.003
+    400008: Cylinder
+    400010: Cylinder.001
+    400012: Top
+    400014: Top/Gold
+    2300000: //RootNode
+    2300002: Closer
+    2300004: Cube.002
+    2300006: Cube.003
+    2300008: Cylinder
+    2300010: Cylinder.001
+    2300012: Top
+    2300014: Top/Gold
+    3300000: //RootNode
+    3300002: Closer
+    3300004: Cube.002
+    3300006: Cube.003
+    3300008: Cylinder
+    3300010: Cylinder.001
+    3300012: Top
+    3300014: Top/Gold
+    4300000: Chest
+    4300002: Cylinder.001
+    4300004: Cylinder
+    4300006: Cube.002
+    4300008: Top
+    4300010: Closer
+    4300012: Top/Gold
+    4300014: Cube.003
+    7400000: Chest|OpenChest
+    7400002: Chest|TopOpen
+    7400004: Cylinder.001|OpenChest
+    7400006: Cylinder.001|TopOpen
+    7400008: Cylinder|OpenChest
+    7400010: Cylinder|TopOpen
+    7400012: Cube.002|OpenChest
+    7400014: Cube.002|TopOpen
+    7400016: Top|OpenChest
+    7400018: Top|TopOpen
+    7400020: Closer|OpenChest
+    7400022: Closer|TopOpen
+    7400024: Top/Gold|OpenChest
+    7400026: Top/Gold|TopOpen
+    7400028: Cube.003|OpenChest
+    7400030: Cube.003|TopOpen
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Top|TopOpen
+      takeName: Top|TopOpen
+      firstFrame: 0
+      lastFrame: 61
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: Cylinder.001
+        weight: 1
+      - path: Top
+        weight: 1
+      - path: Top/Closer
+        weight: 1
+      - path: Top/Top/Gold
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: TerrainGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a12c841b54c6d7489ebe6ec469d4e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_splat0: {fileID: 2800000, guid: 34d6d98f8d3184e94aee664e99601940, type: 3}
+  m_splat1: {fileID: 2800000, guid: 5b8b4b5f25736e4449e8a08af30a9b69, type: 3}
+  m_splatTileSize0: 10
+  m_splatTileSize1: 2
+  m_detail0: {fileID: 2800000, guid: cb1bc5bfbd11058b1100de1b44295342, type: 3}
+  m_detail1: {fileID: 2800000, guid: 4c3440f2bd11488b1100df5944295342, type: 3}
+  m_detail2: {fileID: 2800000, guid: 54d49d60bd11c48b1100454844295342, type: 3}
+  m_tree0: {fileID: 100000, guid: fbe6759f9e37f4519a54d6bb299ede38, type: 3}
+  m_tree1: {fileID: 100000, guid: 7b9282fc41cfa4caf9b150bd407f856e, type: 3}
+  m_tree2: {fileID: 100000, guid: 25fa881dbd110e38a00062d88f962b59, type: 3}
+  m_groundSeed: 0
+  m_groundFrq: 800
+  m_mountainSeed: 4
+  m_mountainFrq: 1200
+  m_treeSeed: 2
+  m_treeFrq: 400
+  m_detailSeed: 3
+  m_detailFrq: 100
+  m_tilesX: 2
+  m_tilesZ: 2
+  m_pixelMapError: 6
+  m_baseMapDist: 1000
+  m_heightMapSize: 513
+  m_alphaMapSize: 1024
+  m_terrainSize: 2048
+  m_terrainHeight: 512
+  m_detailMapSize: 512
+  m_treeSpacing: 32
+  m_treeDistance: 2000
+  m_treeBillboardDistance: 400
+  m_treeCrossFadeLength: 20
+  m_treeMaximumFullLODCount: 400
+  detailMode: 0
+  m_detailObjectDistance: 400
+  m_detailObjectDensity: 4
+  m_detailResolutionPerPatch: 32
+  m_wavingGrassStrength: .400000006
+  m_wavingGrassAmount: .200000003
+  m_wavingGrassSpeed: .400000006
+  m_wavingGrassTint: {r: 1, g: 1, b: 1, a: 1}
+  m_grassHealthyColor: {r: 1, g: 1, b: 1, a: 1}
+  m_grassDryColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
